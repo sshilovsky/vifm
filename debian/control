@@ -1,0 +1,19 @@
+Source: vifm
+Section: utils
+Priority: optional
+Maintainer: Sergei Shilovsky <sshilovsky@gmail.com>
+Build-Depends: debhelper (>= 9), autotools-dev, libncursesw5-dev
+Standards-Version: 3.9.5
+Homepage: http://vifm.info
+Vcs-Git: git://git.code.sf.net/p/vifm/code
+Vcs-Browser: http://sourceforge.net/p/vifm/code/ci/master/tree/
+
+Package: vifm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: vim-addon-manager
+Description: a ncurses based file manager with vi like keybindings
+ Vifm is a ncurses based file manager with vi like keybindings.  If you use vi,
+ vifm gives you complete keyboard control over your files without having to
+ learn a new set of commands.
+ 

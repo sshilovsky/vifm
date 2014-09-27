@@ -1,0 +1,5 @@
+vifm (0.7.7-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Sergei Shilovsky <sshilovsky@gmail.com>  Sat, 27 Sep 2014 13:10:17 +0400

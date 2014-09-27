@@ -21,6 +21,9 @@ override_dh_auto_test:
 	make -C src runtests
 	cd src && ./runtests
 
+override_dh_auto_configure:
+	dh_auto_configure -- --with-libmagic --without-gtk --without-X11 --with-dyn-X11
+
 # main packaging script based on dh7 syntax
 %:
 	dh $@  --with autotools-dev

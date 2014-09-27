@@ -2,7 +2,7 @@ Source: vifm
 Section: utils
 Priority: optional
 Maintainer: Sergei Shilovsky <sshilovsky@gmail.com>
-Build-Depends: debhelper (>= 9), autotools-dev, libncursesw5-dev
+Build-Depends: debhelper (>= 9), autotools-dev, libncursesw5-dev, libtinfo-dev
 Standards-Version: 3.9.5
 Homepage: http://vifm.info
 Vcs-Git: git://git.code.sf.net/p/vifm/code
